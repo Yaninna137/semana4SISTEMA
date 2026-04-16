@@ -1,0 +1,25 @@
+ 0. Incio del programa
+ - Se debe ingresar el valor de (m) filas q se quiere evaluar en un rango de 2 y maximo 8
+
+ 1. Almacenar la matriz de valores 
+ - Se crea una matriz de m = filas sus valores se crean.
+ - La matriz de dimencion m x 3 : alamacena cada fila una ecuacion linial x,y and z 
+ - la matriz debe ser valida, para calcular la programación linial segun (m) de filas q se realizara
+   (aunque es mas el vertices el objetivo).
+
+ 2. Calcular las vertices y Almacenar en una lista de diccionario
+ - recorre la matriz en ciclo for anidado(2), utiliza el metodo de reduccion
+ - se obtiene los vertices y se almacena en una variable global
+ 
+ 3. Graficar 
+ - Se grafica cada linia recta con su trazo en formato limite (una vez intercepatado el vertice crecer un 2 espacios más
+  esto para no tener una linia recta infinita q ocupe demasiado recurso)
+ - Trazo de linia 1: es el todos los puntos pazan por eje x = 0 ,y linia 2 es eje y = 0, 
+  los otros trasos son linias inpuestas en el la matriz de filas(m)
+ - Se integra cada vertice con un punto 
+
+ 4. Contorno convenxo
+ - Se ordena los vertices
+ - Aplicacion de metodo convex hull/ envolvente convexa
+ - Calculos clases(productos cruzados)
+ - graficar el contorno convenzo de forma achurada lo interno
